@@ -1,16 +1,27 @@
 .App {
   text-align: center;
+  margin-top: 100px;
+
 }
+
+input {
+  height: 30px;
+  font-size: 16px;
+  font-weight: 300px;
+}
+
+button {
+  background: blue;
+  height: 30px;
+  border-color: blue;
+  color: #fff;
+  font-size: 18px;
+
+} 
 
 .App-logo {
+  animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
 
 .App-header {
